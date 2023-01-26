@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fontsource/noto-serif-jp": "^4.5.12",
+    "@iconify/react": "^4.0.1",
+    "@styled-system/theme-get": "^5.1.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,9 +13,15 @@
     "@types/node": "^16.18.11",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
+    "clsx": "^1.2.1",
+    "pure-react-carousel": "^1.30.1",
     "react": "^18.2.0",
+    "react-alice-carousel": "^2.7.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
     "react-scripts": "5.0.1",
+    "styled-components": "^5.3.6",
+    "styled-system": "^5.1.5",
     "typescript": "^4.9.4",
     "web-vitals": "^2.1.4"
   },
@@ -39,5 +48,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.26",
+    "@types/styled-system": "^5.1.16",
+    "@types/styled-system__css": "^5.0.17",
+    "@types/styled-system__theme-get": "^5.0.2"
   }
 }
